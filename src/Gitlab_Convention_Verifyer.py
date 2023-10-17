@@ -121,7 +121,7 @@ def snakecase(project):
 # This is the main function, list all projects + groups + members + tree structure and count bad ones + teams report
 def list_projects():
     project_struct, project_count, project_bad_count = 0, 0, 0
-    url = "https://wiki.kelenn.lan/wiki/teamit/view/Git/Conventions/"
+    url = ""  # Add your documentation source url here 
     projects = gl.projects.list(all=True)
 
     for project in projects:
